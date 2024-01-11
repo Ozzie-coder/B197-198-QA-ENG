@@ -1,28 +1,27 @@
-package com.myfirstproject.homework;
+package com.myfirstproject.Homework;
 
 import com.myfirstproject.utilities.TestBase;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class HW02_AlertAndWindow extends TestBase {
+public class HW02_AlertAndWindowTestIT extends TestBase {
     /* When Navigate to https://testpages.herokuapp.com/styled/windows-test.html
 
-     When Click on "Alerts In A New Window From JavaScript"
-     And Switch to new window
-     And Click on "Show alert box" button
-     And Accept alert
-     And Click on "Show confirm box" button
-     And Cancel alert
-     Then Assert that alert is cancelled
-     When Click on "Show prompt box" button
-     And Send "Hello World!" to the alert
-     Then Assert that "Hello World!" is sent
+    When Click on "Alerts In A New Window From JavaScript"
+    And Switch to new window
+    And Click on "Show alert box" button
+    And Accept alert
+    And Click on "Show confirm box" button
+    And Cancel alert
+    Then Assert that alert is cancelled
+    When Click on "Show prompt box" button
+    And Send "Hello World!" to the alert
+    Then Assert that "Hello World!" is sent
 
-     */
+    */
     @Test
     public void alertAndWindowTest() throws InterruptedException {
 //        When Navigate to https://testpages.herokuapp.com/styled/windows-test.html
@@ -78,6 +77,7 @@ public class HW02_AlertAndWindow extends TestBase {
         assertTrue(driver.findElement(By.id("promptreturn")).getText().contains("Hello World!"));
 
     }
+
 
 
 }

@@ -1,4 +1,4 @@
-package com.myfirstproject.homework;
+package com.myfirstproject.Homework;
 
 import com.myfirstproject.utilities.TestBase;
 import org.junit.jupiter.api.Test;
@@ -9,11 +9,10 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class HW01_StateDropdown extends TestBase {
-//     HOMEWORK: State Test
+public class HW01_StateDropdownTestIT extends TestBase {
+    //     HOMEWORK: State Test
 
     /*   https://testcenter.techproeducation.com/index.php?page=dropdown
             Create a new test method : statesTest in this class
@@ -89,6 +88,8 @@ public class HW01_StateDropdown extends TestBase {
 
 
     }
+
+
+
+
 }
-
-

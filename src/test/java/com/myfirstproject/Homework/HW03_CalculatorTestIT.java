@@ -1,4 +1,4 @@
-package com.myfirstproject.homework;
+package com.myfirstproject.Homework;
 
 import com.myfirstproject.utilities.TestBase;
 import org.junit.jupiter.api.Assertions;
@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-public class HW03_Calculator extends TestBase {
+public class HW03_CalculatorTestIT extends TestBase {
 
     @Test
     public void multiplyTest() throws InterruptedException {
@@ -139,4 +139,7 @@ public class HW03_Calculator extends TestBase {
 //        Print the result
         System.out.println(answer);
     }
+
+
+
 }
